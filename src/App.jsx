@@ -8,9 +8,7 @@ import {FAQ} from "./components/FAQ";
 
 
 
-function Button(props) {
-  return <button className={props.buttonStyle}>{props.buttonText}</button>;
-}
+
 
 function App() {
   return (

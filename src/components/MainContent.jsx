@@ -1,5 +1,5 @@
 
-
+import Button from "./common/Button";
   export const MainContent = () => {
     return <main>
             <div className="company-detail-left">
@@ -26,7 +26,7 @@
                 to collaborate with you to tackle your most complex challenges and
                 drive your success.
               </p>
-              <Button buttonText="Learn More" buttonStyle="learn-button" />
+               <Button buttonText="Learn More" buttonStyle="learn-button" /> 
             </div>
           </main>
   }
