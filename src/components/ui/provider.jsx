@@ -3,7 +3,7 @@
 import { ChakraProvider,defaultSystem } from '@chakra-ui/react'
 import { ColorModeProvider } from './color-mode'
 
-function MyProvider(props) {
+function Provider(props) {
   return (
     <ChakraProvider value={defaultSystem}>
       <ColorModeProvider {...props} />
@@ -11,4 +11,4 @@ function MyProvider(props) {
   )
 }
 
-export default MyProvider;
+export default Provider;
